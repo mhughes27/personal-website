@@ -17,13 +17,13 @@
 	<li>Pages</li>
 		<ul>
 			<li>Home</li>
-			<li><a href="Personal Goals.html">Goals</a></li>
-			<li><a href="Bucket List.html">My Bucket List</a></li>
+			<li><a href="Personal Goals.php">Goals</a></li>
+			<li><a href="Bucket List.php">My Bucket List</a></li>
 		</ul>
 
 	<li>Articles</li>
 		<ul>
-			<li> <a href="AI article.html">The Future of Artificial Intelligence</a></li>
+			<li> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
 			<li><strong>The Web</strong></li>
 		</ul>
 

@@ -12,15 +12,15 @@
 <ul>
 	<li>Pages</li>
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Personal Goals.html">Goals</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="Personal Goals.php">Goals</a></li>
 			<li><strong>My Bucket List</strong></li>
 		</ul>
 
 	<li>Articles</li>
 		<ul>
-			<li> <a href="AI article.html">The Future of Artificial Intelligence</a></li>
-			<li><a href="The Web.html">The Web</a></li>
+			<li> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
+			<li><a href="The Web.php">The Web</a></li>
 		</ul>
 
 	<li>My Profiles</li>
