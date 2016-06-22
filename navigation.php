@@ -23,8 +23,8 @@
 
 	<li>Articles</li>
 		<ul>
-			<li> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
-			<li><a href="The Web.php">The Web</a></li>
+			<li<?php if ($thisPage=="ai") echo "id=\"currentpage\""; ?>> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
+			<li<?php if ($thisPage=="theweb") echo "id=\"currentpage\""; ?>> <a href="The Web.php">The Web</a></li>
 		</ul>
 
 	<li>My Profiles</li>

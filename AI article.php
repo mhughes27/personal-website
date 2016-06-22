@@ -1,3 +1,6 @@
+<?php $thisPage = "ai"; ?>
+
+
 <!DOCTYPE html>
 <html>
 

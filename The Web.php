@@ -1,3 +1,5 @@
+<?php $thisPage = "theweb"; ?>
+
 <!DOCTYPE html>
 <html>
 
