@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Web</title>
+</head>
+
+<body>
+
 <h1>The Web</h1>
 
 <p>The web is information.  Almost anything that you could ever want to know is a couple of keystrokes and a few clicks away.  To me that is amazing.  Gone are the days of card catalogs and almanacs, and here to stay are Google and Wikipedia.  The best part of this information is that it is immediate.  You want tot know what a score is?  Open the ESPN app.  Want to know what the population of Morocco is? Google it.  Want to know what Donald Trump did today?  Check Twitter.  The  web is information - soak it up.</p>
@@ -35,3 +44,10 @@
 		</ul>
 </ul>
 </nav>
+
+<?php include("navigation.html");
+?>
+
+
+</body>
+</html>

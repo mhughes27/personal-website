@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Goals</title>
+</head>
+
+<body>
+
+
 <h1>Goals</h1>
 
 <ul>
@@ -42,3 +52,9 @@
 	</ul>
 	</nav>
 
+	<?php include("navigation.html");
+?>
+
+
+</body>
+</html>

@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bucket List</title>
+</head>
+
+<body>
+
+
 <h1>My Bucket List</h1>
 
 <ul>
@@ -31,3 +41,10 @@
 		</ul>
 </ul>
 </nav>
+
+<?php include("navigation.html");
+?>
+
+
+</body>
+</html>
