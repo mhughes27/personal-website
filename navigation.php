@@ -13,7 +13,7 @@
 <ul>
 	<li>Pages</li>
 		<ul>
-			<li<?php if ($thisPage=="home") echo "id=\"currentpage\""; ?>> <a href="index.php"> </a></li>
+			<li<?php if ($thisPage=="home") echo "id=\"currentpage\""; ?>> <a href="index.php">Home</a></li>
 			
 			<li<?php if ($thisPage=="goals") echo "id=\"currentpage\""; ?>> <a href="Personal Goals.php">Goals</a></li>
 			
