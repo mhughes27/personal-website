@@ -1,3 +1,5 @@
+<?php $thisPage = "home"; ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -22,7 +24,7 @@
 <h3>Top Five TV Shows</h3>
 	<ol>
 		<li>Game of Thrones</li>
-		<li>THe Americans</li>
+		<li>The Americans</li>
 		<li>Mr. Robot</li>
 		<li>Last Week, Tonight</li>
 		<li>Better Call Saul</li>
@@ -32,31 +34,8 @@
 
 
 
-<nav>
-<ul>
-	<li>Pages</li>
-		<ul>
-			<li><strong>Home</strong></li>
-			<li><a href="Personal Goals.php">Goals</a></li>
-			<li><a href="Bucket List.php">My Bucket List</a></li>
-		</ul>
 
-	<li>Articles</li>
-		<ul>
-			<li> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
-			<li><a href="The Web.php">The Web</a></li>
-		</ul>
-
-	<li>My Profiles</li>
-		<ul>
-			<li><a href="https://twitter.com">Twitter</a></li>
-			<li><a href="https://github.com/mhughes27">GitHub</a></li>
-			<li><a href="https://www.linkedin.com/profile/guided?trk=uno-choose-ge-no-intent&dl=no">LinkedIn</a></li>
-		</ul>
-</ul>
-</nav>
-
-<?php include("navigation.html");
+<?php include("navigation.php");
 ?>
 
 

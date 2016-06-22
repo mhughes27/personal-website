@@ -45,7 +45,7 @@
 </ul>
 </nav>
 
-<?php include("navigation.html");
+<?php include("navigation.php");
 ?>
 
 

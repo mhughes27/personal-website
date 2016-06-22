@@ -6,11 +6,15 @@
 
 
 <body>
+
+
+
+
 <nav>
 <ul>
 	<li>Pages</li>
 		<ul>
-			<li><strong>Home</strong></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="Personal Goals.php">Goals</a></li>
 			<li><a href="Bucket List.php">My Bucket List</a></li>
 		</ul>
@@ -29,6 +33,6 @@
 		</ul>
 </ul>
 </nav>
+
 </body>
 </html>
-
