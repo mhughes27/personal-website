@@ -6,6 +6,7 @@
 
 <head>
 	<title>Bucket List</title>
+	<link rel="stylesheet" type="text/class" href="styles.css">
 </head>
 
 <body>

@@ -5,6 +5,7 @@
 <html>
 
 <head>
+	<link rel="stylesheet" type="text/class" href="styles.css">
 	<title>AI</title>
 </head>
 
@@ -23,30 +24,6 @@
 
 <p>The biggest question I have after reading this article is the notion regulation.  Is there anything that is already in place to address these concerns?  Who is going to write the rules?  How are a companies/countries going to be held accountable to ensure the doomsday scenarios mentioned in the article never occur?  Are we going to trust leaders to have enough common sense or is there a need for a regulatory body?</p>
 
-
-<nav>
-<ul>
-	<li>Pages</li>
-		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="Personal Goals.php">Goals</a></li>
-			<li><a href="Bucket List.php">My Bucket List</a></li>
-		</ul>
-
-	<li>Articles</li>
-		<ul>
-			<li> <strong>The Future of Artificial Intelligence</strong></li>
-			<li><a href="The Web.php">The Web</a></li>
-		</ul>
-
-	<li>My Profiles</li>
-		<ul>
-			<li><a href="https://twitter.com">Twitter</a></li>
-			<li><a href="https://github.com/mhughes27">GitHub</a></li>
-			<li><a href="https://www.linkedin.com/profile/guided?trk=uno-choose-ge-no-intent&dl=no">LinkedIn</a></li>
-		</ul>
-</ul>
-</nav>
 
 <?php include("navigation.php");
 ?>

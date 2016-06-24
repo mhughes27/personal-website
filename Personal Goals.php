@@ -5,6 +5,7 @@
 
 <head>
 	<title>Goals</title>
+	<link rel="stylesheet" type="text/class" href="styles.css">
 </head>
 
 <body>
@@ -27,8 +28,6 @@
 			<li>Learn Something New Everyday</li>
 		</ul>
 </ul>
-
-	
 
 	
 	<?php include("navigation.php");

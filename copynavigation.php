@@ -29,7 +29,13 @@
 			<li<?php if ($thisPage=="theweb") echo "id=\"currentpage\""; ?>> <a href="The Web.php">The Web</a></li>
 		</ul>
 
-	</ul>
+	<li>My Profiles</li>
+		<ul>
+			<li><a href="https://twitter.com">Twitter</a></li>
+			<li><a href="https://github.com/mhughes27">GitHub</a></li>
+			<li><a href="https://www.linkedin.com/profile/guided?trk=uno-choose-ge-no-intent&dl=no">LinkedIn</a></li>
+		</ul>
+</ul>
 </div>
 </nav>
 </body>
