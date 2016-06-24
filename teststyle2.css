@@ -41,10 +41,9 @@
 	display: flex;
 	flex-flow: row;
 	background-color: #cdceae;
+	margin: 20px;
 
 }
 
-.rightsText{
-	flex:3;
-}
+
 

@@ -41,10 +41,11 @@
 	display: flex;
 	flex-flow: row;
 	background-color: #b4b9de;
+	margin-top: 10px;
 
 }
-
-.rightsText{
-	flex:3;
+.rightText{
+	padding:20px;
 }
+
 
