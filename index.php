@@ -1,4 +1,4 @@
-
+<?php $thisPage = "home"; ?>
 
 
 <!DOCTYPE html>
