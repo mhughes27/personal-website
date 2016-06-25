@@ -27,10 +27,13 @@
 		<ul>
 			<li<?php if ($thisPage=="ai") echo "id=\"currentpage\""; ?>> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
 			<li<?php if ($thisPage=="theweb") echo "id=\"currentpage\""; ?>> <a href="The Web.php">The Web</a></li>
+			<li<?php if ($thisPage=="paths") echo "id=\"currentpage\""; ?>> <a href="paths.php">Calling Paths</a></li>
+			<li<?php if ($thisPage=="htmlParts") echo "id=\"currentpage\""; ?>> <a href="htmlParts.php">The Web</a></li>
+
 		</ul>
 	<li>Projects</li>
 		<ul>
-			<li><a href="index.php">Rock, Paper, Scissors</a>
+			<li><a href="RPS/test.php">Rock, Paper, Scissors</a>
 
 	</ul>
 </div>
