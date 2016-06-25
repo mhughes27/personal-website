@@ -28,7 +28,7 @@
 			<li<?php if ($thisPage=="ai") echo "id=\"currentpage\""; ?>> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
 			<li<?php if ($thisPage=="theweb") echo "id=\"currentpage\""; ?>> <a href="The Web.php">The Web</a></li>
 			<li<?php if ($thisPage=="paths") echo "id=\"currentpage\""; ?>> <a href="paths.php">Calling Paths</a></li>
-			<li<?php if ($thisPage=="htmlParts") echo "id=\"currentpage\""; ?>> <a href="htmlParts.php">The Web</a></li>
+			<li<?php if ($thisPage=="htmlParts") echo "id=\"currentpage\""; ?>> <a href="htmlParts.php">Parts of an HTML Document</a></li>
 
 		</ul>
 	<li>Projects</li>
