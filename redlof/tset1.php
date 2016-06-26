@@ -20,11 +20,11 @@
 				
 			</div>
 			<div class="leftbottom">
-				<?php include("navigation.php");?>
+				<?php include("/navigation.php");?>
 			</div>
 		</div>
 		<div class="rightcolumn">
-			<div class="rightText">
+			<div class="rightText"
 
 
 
@@ -32,7 +32,16 @@
 
 
 
-<h1>My Bucket List</h1>
+<h1>My Bucket List  Yippee SKIPPEE</h1>
+
+					<a href="tset.php">Test1</a>
+					<a href="/tset.php">Test2</a>
+					<a href="../tset.php">Test3</a>
+					<a href="http://localhost:8888/personal-website/tset.php">Test4</a>
+
+
+
+
 
 <ul>
 	<li>Appear on Jeopardy</li>
@@ -41,11 +50,10 @@
 	<li>Die a Happy Man</li>
 </ul>
 
-		</div>
-		</div>
 
 
-
+<?php include("/navigation.php");
+?>
 
 
 </body>

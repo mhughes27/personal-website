@@ -6,7 +6,7 @@
 	flex-direction:row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	background-color: #43252b;
+	background-color: #334062;
 
 }
 
@@ -22,14 +22,14 @@
 
 }
 .lefttop{
-	background-color: #7a4e64;
+	background-color: #3b4b6f;
 	justify-content: flex-start;
 	padding: 10px;
 
 }
 
 .leftbottom{
-	background-color: #B38489;
+	background-color: #6c7184;
 	justify-content: flex-start;
 	padding: 10px;
 	min-height: 100vh;
@@ -40,11 +40,12 @@
 	width: 80%;
 	display: flex;
 	flex-flow: row;
-	background-color: #cdceae;
+	background-color: #ced9ed;
+	margin-top: 10px;
 
 }
-
-.rightsText{
-	flex:3;
+.rightText{
+	padding:20px;
 }
+
 

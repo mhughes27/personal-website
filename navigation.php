@@ -33,7 +33,7 @@
 		</ul>
 	<li>Projects</li>
 		<ul>
-			<li><a href="RPS/test.php">Rock, Paper, Scissors</a>
+			<li><a href="RPS/index.php">Rock, Paper, Scissors</a>
 
 	</ul>
 </div>

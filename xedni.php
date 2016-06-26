@@ -1,11 +1,11 @@
-<?php $thisPage = "bucket"; ?>
+<?php $thisPage = "home"; ?>
 
 
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Bucket List</title>
+	<title>Format</title>
 	<link rel="stylesheet" type="text/class" href="teststyle3.css">
 </head>
 
@@ -25,28 +25,23 @@
 		</div>
 		<div class="rightcolumn">
 			<div class="rightText">
+				<h3>Links Test</h3>
+	
+
+					<a href="tset.php">Test1</a>
+					<a href="/tset1.php">Test2</a>
+					<a href="../tset.php">Test3</a>
+					<a href="http://localhost:8888/personal-website/tset.php">Test4</a>
 
 
 
-
-
-
-
-<h1>My Bucket List</h1>
-
-<ul>
-	<li>Appear on Jeopardy</li>
-	<li>Go to the Masters</li>
-	<li>Travel to all Seven Continents</li>
-	<li>Die a Happy Man</li>
-</ul>
-
+			</div>
 		</div>
-		</div>
-
-
-
-
 
 </body>
 </html>
+
+
+	
+
+

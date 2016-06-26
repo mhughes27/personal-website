@@ -20,11 +20,11 @@
 				
 			</div>
 			<div class="leftbottom">
-				<?php include("navigation.php");?>
+				<?php include("../navigation.php");?>
 			</div>
 		</div>
 		<div class="rightcolumn">
-			<div class="rightText">
+			<div class="rightText"
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-<h1>My Bucket List</h1>
+<h1>My Bucket List  Yippee</h1>
 
 <ul>
 	<li>Appear on Jeopardy</li>
@@ -41,11 +41,10 @@
 	<li>Die a Happy Man</li>
 </ul>
 
-		</div>
-		</div>
 
 
-
+<?php include("../navigation.php");
+?>
 
 
 </body>

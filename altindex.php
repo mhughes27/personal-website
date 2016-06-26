@@ -1,12 +1,12 @@
-<?php $thisPage = "bucket"; ?>
+<?php $thisPage = "althome"; ?>
 
 
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Bucket List</title>
-	<link rel="stylesheet" type="text/class" href="teststyle3.css">
+	<title>Format</title>
+	<link rel="stylesheet" type="text/class" href="teststyle2.css">
 </head>
 
 <body class="pagecontainer">
@@ -25,28 +25,30 @@
 		</div>
 		<div class="rightcolumn">
 			<div class="rightText">
+				<h3>Places I've Lived</h3>
+	<ul>
+		<li>Lexington, NE  '81-'83</li>
+		<li>Mitchell, NE   '83-'85</li>
+		<li>Wisner, NE   '85-'95</li>
+		<li>Brush, CO   '95-'00</li>
+		<li>Omaha, NE   '00-Present</li>
+	</ul>
 
+<h3>Top Five TV Shows</h3>
+	<ol>
+		<li>Game of Thrones</li>
+		<li>The Americans</li>
+		<li>Mr. Robot</li>
+		<li>Last Week, Tonight</li>
+		<li>Better Call Saul</li>
+	</ol>
 
-
-
-
-
-
-<h1>My Bucket List</h1>
-
-<ul>
-	<li>Appear on Jeopardy</li>
-	<li>Go to the Masters</li>
-	<li>Travel to all Seven Continents</li>
-	<li>Die a Happy Man</li>
-</ul>
-
+			</div>
 		</div>
-		</div>
-
-
-
-
 
 </body>
 </html>
+
+
+	
+
