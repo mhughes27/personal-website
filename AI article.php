@@ -1,6 +1,6 @@
 <?php $thisPage = "ai"; ?>
 
-<? include("topshell.php"); ?>
+<?php include("topshell.php"); ?>
 		<h1>The Future of Artificial Intelligence</h1>
 
 		<h4> My thoughts on a recent <a href src ="http://www.wsj.com/articles/whats-next-for-artificial-intelligence-1465827619?href=">Wall Street Journal</a> article</h4>

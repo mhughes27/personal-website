@@ -1,15 +1,5 @@
 
 
-<!DOCTYPE html>
-<html>
-<head>
-	
-	<title>Navigation</title>
-	<link rel="stylesheet" type="text/class" href="styles.css">
-</head>
-
-
-<body>
 <nav>
 <div id="navigation">
 	<ul>
@@ -40,6 +30,4 @@
 
 </div>
 </nav>
-</body>
-</html>
 
