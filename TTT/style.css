@@ -1,0 +1,20 @@
+
+.box1 {background-color: red;}
+.box2 {background-color: blue;}
+.box3 {background-color: green;}
+.box4 {background-color: yellow;}
+.box5 {background-color: purple;}
+.box6 {background-color: brown;}
+.box7 {background-color: lightgreen;}
+.box8 {background-color: navy;}
+.box9 {background-color: pink;}
+
+.container{
+	display: flex;
+	border: 10px solid black;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+.box {
+	width:300px;
+}
