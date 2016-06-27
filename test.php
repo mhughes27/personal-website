@@ -1,24 +1,31 @@
-<!DOCTYPE>
-<html>
-<head>
-	<title>Testing</title>
-</head>
+<?php $thisPage = "home"; ?>
+<?php $theme = $_GET["theme"]; ?>
 
-<body>
+<?php include("topshell.php"); ?>
 
-<h1>My Bucket List</h1>
+			<h3>Places I've Lived</h3>
+				<ul>
+					<li>Lexington, NE  '81-'83</li>
+					<li>Mitchell, NE   '83-'85</li>
+					<li>Wisner, NE   '85-'95</li>
+					<li>Brush, CO   '95-'00</li>
+					<li>Omaha, NE   '00-Present</li>
+				</ul>
 
-<ul>
-	<li>Appear on Jeopardy</li>
-	<li>Go to the Masters</li>
-	<li>Travel to all Seven Continents</li>
-	<li>Die a Happy Man</li>
-</ul>
+			<h3>Top Five TV Shows</h3>
+				<ol>
+					<li>Game of Thrones</li>
+					<li>The Americans</li>
+					<li>Mr. Robot</li>
+					<li>Last Week, Tonight</li>
+					<li>Better Call Saul</li>
+				</ol>
+
+		</div>
+	</div>
+
+<?php include("bottomshell.php"); ?>
 
 
-<?php include("navigation.php");
+	
 
-?>
-
-</body>
-</html>
