@@ -1,4 +1,5 @@
 <?php $thisPage = "theweb"; ?>
+<?php $title = "The Web"; ?>
 
 <?php include("topshell.php"); ?>
 		<h1>The Web</h1>

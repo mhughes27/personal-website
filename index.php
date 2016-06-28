@@ -1,5 +1,6 @@
 <?php $thisPage = "home"; ?>
 <?php $theme = $_GET["theme"]; ?>
+<?php $title = "Matt Hughes"; ?>
 
 <?php include("topshell.php"); ?>
 			<h3>Places I've Lived</h3>

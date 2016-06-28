@@ -2,8 +2,8 @@
 
 <nav>
 <div id="navigation">
-	<ul>
-		<li>Pages</li>
+	
+		<h4>Pages</h4>
 			<ul>
 				<li<?php if ($thisPage=="home") echo "id=\"currentpage\""; ?>> <a href="index.php">Home</a></li>
 				
@@ -13,19 +13,21 @@
 
 			</ul>
 
-		<li>Articles</li>
+		<h4>Articles</h4>
 			<ul>
 				<li<?php if ($thisPage=="ai") echo "id=\"currentpage\""; ?>> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
 				<li<?php if ($thisPage=="theweb") echo "id=\"currentpage\""; ?>> <a href="The Web.php">The Web</a></li>
 				<li<?php if ($thisPage=="paths") echo "id=\"currentpage\""; ?>> <a href="paths.php">Calling Paths</a></li>
 				<li<?php if ($thisPage=="htmlparts") echo "id=\"currentpage\""; ?>> <a href="htmlParts.php">Parts of an HTML Document</a></li>
+				<li<?php if ($thisPage=="tttprocess") echo "id=\"currentpage\""; ?>> <a href="TTTprocess.php">Designing TIC TAC TOE</a></li>
+
 			</ul>
-		<li>Projects</li>
+		<h4>Projects</h4>
 			<ul>
 				<li><a href="RPS/index.php">Rock, Paper, Scissors</a></li>
 				<li><a href="TTT/index.php">TIC TAC TOE</a></li>
 			</ul>
-	</ul>
+	
 	<a href="index.php?theme=alternate"><img src="egg.png" style="width: 70px; height: 70px" alt="Switch Colors Scheme"></a>
 
 </div>

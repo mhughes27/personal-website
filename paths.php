@@ -1,4 +1,5 @@
 <?php $thisPage = "paths"; ?>
+<?php $title = "Calling Paths"; ?>
 
 
 <?php include("topshell.php"); ?>

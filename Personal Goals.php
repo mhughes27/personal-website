@@ -1,4 +1,5 @@
 <?php $thisPage = "goals"; ?>
+<?php $title = "Personal Goals"; ?>
 
 <?php include("topshell.php"); ?>
 			<h1>Goals</h1>

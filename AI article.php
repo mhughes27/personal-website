@@ -1,4 +1,5 @@
 <?php $thisPage = "ai"; ?>
+<?php $title = "Artificial Intelligence"; ?>
 
 <?php include("topshell.php"); ?>
 		<h1>The Future of Artificial Intelligence</h1>

@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Matt Hughes</title>
+	<title><?php echo $title; ?></title>
 		<link rel="stylesheet" type="text/class" href="teststyle3.css"> 
 	
 

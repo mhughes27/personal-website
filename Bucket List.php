@@ -1,4 +1,5 @@
 <?php $thisPage = "bucket"; ?>
+<?php $title = "Bucket List"; ?>
 
 <?php include("topshell.php"); ?>
 			<h1>My Bucket List</h1>
