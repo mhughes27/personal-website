@@ -1,20 +1,49 @@
-
-.box1 {background-color: red;}
-.box2 {background-color: blue;}
-.box3 {background-color: green;}
-.box4 {background-color: yellow;}
-.box5 {background-color: purple;}
-.box6 {background-color: brown;}
-.box7 {background-color: lightgreen;}
-.box8 {background-color: navy;}
-.box9 {background-color: pink;}
-
-.container{
-	display: flex;
-	border: 10px solid black;
-	height: 100vh;
-	flex-wrap: wrap;
+* {
+  box-sizing : border-box;
 }
-.box {
-	width:300px;
+
+html, body {
+  height : 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+  
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(top, #222, #333);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  border: 3px solid black;
+}
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .square {
+    display: block;
+    width: 125px;
+    height: 125px;
+    border: 3px solid gray;
+    
+    color: #e4e4e4;
+    font-size: 5em;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+  }
 }
