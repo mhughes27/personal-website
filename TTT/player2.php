@@ -26,6 +26,7 @@
 </div>
 
 <p><?php print_r($_GET); ?></p>
+<p><?php echo $player1;?></p>
 
 
 </body>

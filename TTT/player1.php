@@ -9,7 +9,7 @@
 
 <div class="container">
   <div class="column">
-    <span class="square" id="one"><a href="player2.php?choice1=1.php">1</a></span>
+    <span class="square" id="one"><a href="player2.php?choice1=1">1</a></span>
     <span class="square" id="four"><a href="player2.php?choice1=4">4</a></span>
     <span class="square" id="seven"><a href="player2.php?choice1=7">7</a></span>
   </div>
@@ -26,6 +26,9 @@
 </div>
 
 <p><?php print_r($_GET); ?></p>
+<p><?php echo $player1;?></p>
+<p><?php echo $player2;?></p>
+
 
 </body>
 </html>
