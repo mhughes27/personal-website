@@ -8,25 +8,29 @@ $player2 = array();
 array_push($player2, $_GET["choice2"]);
 ?>
 
+<!-- available moves -->
+<?php 
+	$moves = array(0, 1, 2, 3, 4, 5, 6, 7, 8);
+		unset($moves[$_GET["choice1"]]);
+?>
 
-
-<!-- Check for a winner: win if either array conains
-(1, 2, 3) (4, 5, 6) (7, 8, 9)
-(1, 4, 7)  (2, 5, 8) (3, 6, 9)
-(1, 5, 9) (3, 5, 7)-->
-<!-- Function to see if player 1 wins -->
+// <!-- Function to see if player 1 wins -->
 <php?
 function checkif1wins(){
 	
-	if (array_intersect($player1, array(1, 2, 3)) == array(1, 2, 3)){
+	if (array_intersect($player1, array(0, 1, 2)) == array(0, 1, 2)){
 		return "Player 1 Wins";
 	}
 
-	elseif (array_intersect($player1, array(4, 5, 6)) == array(4, 5, 6)){
+	elseif (array_intersect($player1, array(3, 4, 5)) == array(3, 4, 5)){
 		return "Player 1 Wins";
 	}
 
-	elseif (array_intersect($player1, array(7, 8, 9)) == array(7, 8, 9)){
+	elseif (array_intersect($player1, array(6, 7, 8)) == array(6, 7, 8)){
+		return "Player 1 Wins";
+	}
+
+	elseif (array_intersect($player1, array(0, 3, 6,)) == array(0, 3, 6)){
 		return "Player 1 Wins";
 	}
 
@@ -38,15 +42,11 @@ function checkif1wins(){
 		return "Player 1 Wins";
 	}
 	
-	elseif (array_intersect($player1, array(3, 6, 9)) == array(3, 6, 9)){
+	elseif (array_intersect($player1, array(0, 4, 8)) == array(0, 4, 8)){
 		return "Player 1 Wins";
 	}
 	
-	elseif (array_intersect($player1, array(1, 5, 9)) == array(1, 5, 9)){
-		return "Player 1 Wins";
-	}
-	
-	elseif (array_intersect($player1, array(3, 5, 7)) == array(3, 5, 7)){
+	elseif (array_intersect($player1, array(2, 4, 6)) == array(2, 4, 6)){
 		return "Player 1 Wins";
 	}
 
@@ -60,35 +60,35 @@ function checkif1wins(){
 <php?
 function checkif2wins(){
 	
-	if (array_intersect($player2, array(1, 2, 3)) == array(1, 2, 3)){
+	if (array_intersect($player1, array(0, 1, 2)) == array(0, 1, 2)){
 		return "Player 2 Wins";
 	}
 
-	elseif (array_intersect($player2, array(4, 5, 6)) == array(4, 5, 6)){
+	elseif (array_intersect($player1, array(3, 4, 5)) == array(3, 4, 5)){
 		return "Player 2 Wins";
 	}
 
-	elseif (array_intersect($player2, array(7, 8, 9)) == array(7, 8, 9)){
+	elseif (array_intersect($player1, array(6, 7, 8)) == array(6, 7, 8)){
 		return "Player 2 Wins";
 	}
 
-	elseif (array_intersect($player2, array(1, 4, 7)) == array(1, 4, 7)){
+	elseif (array_intersect($player1, array(0, 3, 6,)) == array(0, 3, 6)){
 		return "Player 2 Wins";
 	}
 
-	elseif (array_intersect($player2, array(2, 5, 8)) == array(2, 5, 8)){
+	elseif (array_intersect($player1, array(1, 4, 7)) == array(1, 4, 7)){
+		return "Player 2 Wins";
+	}
+
+	elseif (array_intersect($player1, array(2, 5, 8)) == array(2, 5, 8)){
 		return "Player 2 Wins";
 	}
 	
-	elseif (array_intersect($player2, array(3, 6, 9)) == array(3, 6, 9)){
+	elseif (array_intersect($player1, array(0, 4, 8)) == array(0, 4, 8)){
 		return "Player 2 Wins";
 	}
 	
-	elseif (array_intersect($player2, array(1, 5, 9)) == array(1, 5, 9)){
-		return "Player 2 Wins";
-	}
-	
-	elseif (array_intersect($player2, array(3, 5, 7)) == array(3, 5, 7)){
+	elseif (array_intersect($player1, array(2, 4, 6)) == array(2, 4, 6)){
 		return "Player 2 Wins";
 	}
 

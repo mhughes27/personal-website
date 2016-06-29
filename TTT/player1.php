@@ -11,29 +11,30 @@
 
 <div class="container">
   <div class="column">
-    <span class="square" id="one"><a href="player2.php?choice1=1&player=1">1</a></span>
-    <span class="square" id="four"><a href="player2.php?choice1=4&player=1">4</a></span>
-    <span class="square" id="seven"><a href="player2.php?choice1=7&player=1">7</a></span>
+    <div class="square" id="zero"><a href="player2.php?player=1&choice1=0">0</a></div>
+    <div class="square" id="three"><a href="player2.php?player=1&choice1=3">3</a></div>
+    <div class="square" id="six"><a href="player2.php?player=1&choice1=6">6</a></div>
   </div>
   <div class="column">
-    <span class="square" id="two"><a href="player2.php?choice1=2&player=1">2</a></span>
-    <span class="square" id="five"><a href="player2.php?choice1=5&player=1">5</a></span>
-    <span class="square" id="eight"><a href="player2.php?choice1=8&player=1">8</a></span>
+    <div class="square" id="one"><a href="player2.php?player=1&choice1=1">1</a></div>
+    <div class="square" id="four"><a href="player2.php?player=1&choice1=4">4</a></div>
+    <div class="square" id="seven"><a href="player2.php?player=1&choice1=7">7</a></div>
   </div>
   <div class="column">
-    <span class="square" id="three"><a href="player2.php?choice1=3&player=1">3</a></span>
-    <span class="square" id="six"><a href="player2.php?choice1=6&player=1">6</a></span>
-    <span class="square" id="nine"><a href="player2.php?choices1=9&player=1">9</a></span>
+    <div class="square" id="two"><a href="player2.php?player=1&choice1=2">2</a></div>
+    <div class="square" id="five"><a href="player2.php?player=1&choice1=5">5</a></div>
+    <div class="square" id="eight"><a href="player2.php?player=1&choice1=8">8</a></div>
   </div>
 </div>
 
-<p><?php print_r($_GET); ?></p>
-<p><?php print_r($player1);?></p>
-<p><?php print_r($_GET["player1"]);?></p>
+<p>Available Moves:<?php print_r($moves);?><p>
 
-<p><?php print_r($player2);?></p>
-<p><?php print_r($_GET["player2"]);?></p>
+<p>Full array:<?php print_r($_GET); ?></p>
+<p>Player1<?php print_r($player1);?></p>
+<p>Player One<?php print_r($_GET["player1"]);?></p>
 
+<p>Player2<?php print_r($player2);?></p>
+<p>Player Two<?php print_r($_GET["player2"]);?></p>
 
 
 
