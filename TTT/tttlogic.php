@@ -1,18 +1,25 @@
+<!-- array of player1 moves not currently working -->
 <?php
 $player1 = array();
 array_push($player1, $_GET["choice1"]);
 ?>
 
+<!-- array of player2 moves  not currently working -->
 <?php
 $player2 = array();
 array_push($player2, $_GET["choice2"]);
 ?>
 
 <!-- available moves -->
+
 <?php 
-	$moves = array(0, 1, 2, 3, 4, 5, 6, 7, 8);
-		unset($moves[$_GET["choice1"]]);
+$moves = array(0, 1, 2, 3, 4, 5, 6, 7, 8);
+		unset($moves[$_GET["move"]]);
+			print_r($moves); 
 ?>
+
+
+
 
 // <!-- Function to see if player 1 wins -->
 <php?
