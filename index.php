@@ -21,6 +21,15 @@
 					<li>Better Call Saul</li>
 				</ol>
 
+			<h3>Favorite Podcasts</h3>
+				<ul>
+					<li>Freakonomics Radio</li>
+					<li>The Bill Simmons Podcast</li>
+					<li>Keepin' it 1600</li>
+					<li>Wait Wait... Don't Tell Me</li>
+					<li>Revisionist History</li>
+				</ul>
+
 		</div>
 	</div>
 

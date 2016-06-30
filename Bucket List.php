@@ -4,12 +4,32 @@
 <?php include("topshell.php"); ?>
 			<h1>My Bucket List</h1>
 
+			<h3>Places</h3>
 			<ul>
-				<li>Appear on Jeopardy</li>
-				<li>Go to the Masters</li>
-				<li>Travel to all Seven Continents</li>
+				<li>Cooperstown, NY</li>
+				<li>Hawaii</li>
+				<strike>Ireland</strike>
+				<li>Australia</li>
+				<strike>Europe</strike>
+				<li>All 50 States</li>
+			</ul>
+
+			<h3>Events</h3>
+			<ul>
+				<li>Wimbledon</li>
+				<li>Indinapolis 500</li>
+				<strike>Ketucky Derby</strike>
+				<li>The Masters</li>
+				<strike>NYE in Time's Square</strike>
 				<li>Die a Happy Man</li>
 			</ul>
+
+			<h3>Goals</h3>
+			<ul>
+				<li>Appear on Jeopardy</li>
+				<li>Die a Happy Man</li>
+			</ul>
+		
 		</div>
 	</div>
 
