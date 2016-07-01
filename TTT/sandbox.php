@@ -1,4 +1,4 @@
-<?php include("tttlogic.php"); ?>
+<?php testfunctions.php ?>
 
 <!DOCTYPE html>
 <html>
@@ -7,35 +7,26 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<H1>Player 1: Choose a Spot</H1>
+<H1>TIC TAC TOE</H1>
 
 <div class="container">
   <div class="column">
-    <a href="player2.php?player=1&action=X&choice1=0&move=0"><div class="square" id="zero"></div></a>
-    <div class="square" id="three"><a href="player2.php?player=1&action=X&choice1=3&move=3">3</a></div>
-    <div class="square" id="six"><a href="player2.php?player=1&action=X&choice1=6&move=6">6</a></div>
+    <div class="square"><a href="sandbox.php?game=XEEEEEEEE">_</a></div>
+    <div class="square"><a href="sandbox.php?game=EEEXEEEEE">_</a></div>
+    <div class="square"><a href="sandbox.php?game=EEEEEEXEE">_</a></div>
   </div>
   <div class="column">
-    <div class="square" id="one"><a href="player2.php?player=1&action=X&choice1=1&move=1">1</a></div>
-    <div class="square" id="four"><a href="player2.php?player=1&action=X&choice1=4&move=4">4</a></div>
-    <div class="square" id="seven"><a href="player2.php?player=1&action=X&choice1=7&move=7">7</a></div>
+    <div class="square"><a href="sandbox.php?game=EXEEEEEEE">_</a></div>
+    <div class="square"><a href="sandbox.php?game=EEEEXEEEE">_</a></div>
+    <div class="square"><a href="sandbox.php?game=EEEEEEEXE">_</a></div>
   </div>
   <div class="column">
-    <div class="square" id="two"><a href="player2.php?player=1&action=X&choice1=2&move=2">2</a></div>
-    <div class="square" id="five"><a href="player2.php?player=1&action=X&choice1=5&move=5">5</a></div>
-    <div class="square" id="eight"><a href="player2.php?player=1&action=X&choice1=8&move=8">8</a></div>
+    <div class="square"><a href="sandbox.php?game=EEXEEEEEE">_</a></div>
+    <div class="square"><a href="sandbox.php?game=EEEEEXEEE">_</a></div>
+    <div class="square"><a href="sandbox.php?game=EEEEEEEEX">_</a></div>
   </div>
 </div>
-
-<p>Available Moves:<?php print_r($moves);?><p>
-
-<p>Full array:<?php print_r($_GET); ?></p>
-<p>Player1<?php print_r($player1);?></p>
-<p>Player One<?php print_r($_GET["player1"]);?></p>
-
-<p>Player2<?php print_r($player2);?></p>
-<p>Player Two<?php print_r($_GET["player2"]);?></p>
-
+  
 
 
 </body>
