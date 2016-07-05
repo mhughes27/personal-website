@@ -7,6 +7,11 @@
 <body>
 <H1><a href="player1.php">Click to Begin</a></H1>
 
+<div class="topmenu">
+  <a href="index.php"><-</a>
+  <h6>Menu</h6>
+</div>
+
 <div class="container">
   <div class="column">
     <span class="square" id="zero">0</span>

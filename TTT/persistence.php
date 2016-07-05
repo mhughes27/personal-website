@@ -34,4 +34,7 @@ fclose($file_connetion);
 
 <h1> <?php echo $lines[2]; ?></h1>
 
+<h1> <?php print_r($lines); ?></h1>
+
+
 
