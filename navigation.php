@@ -20,6 +20,7 @@
 				<li<?php if ($thisPage=="paths") echo "id=\"currentpage\""; ?>> <a href="paths.php">Calling Paths</a></li>
 				<li<?php if ($thisPage=="htmlparts") echo "id=\"currentpage\""; ?>> <a href="htmlParts.php">Parts of an HTML Document</a></li>
 				<li<?php if ($thisPage=="tttprocess") echo "id=\"currentpage\""; ?>> <a href="TTTprocess.php">Designing TIC TAC TOE</a></li>
+				<li<?php if ($thisPage=="dictionary") echo "id=\"currentpage\""; ?>> <a href="dictionary.php">Personal Dictionary</a></li>
 
 			</ul>
 		<h4>Projects</h4>
