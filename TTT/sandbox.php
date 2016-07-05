@@ -1,4 +1,4 @@
-<?php testfunctions.php ?>
+<?php include("testfunctions.php"); ?>
 
 <!DOCTYPE html>
 <html>
@@ -11,19 +11,19 @@
 
 <div class="container">
   <div class="column">
-    <div class="square"><a href="sandbox.php?game=XEEEEEEEE">_</a></div>
-    <div class="square"><a href="sandbox.php?game=EEEXEEEEE">_</a></div>
-    <div class="square"><a href="sandbox.php?game=EEEEEEXEE">_</a></div>
+    <div class="square"><?php gameboard(0,X);?>0</div>
+    <div class="square"><?php gameboard(3,X);?>3</div>
+    <div class="square"><?php gameboard(6,X);?>6</div>
   </div>
   <div class="column">
-    <div class="square"><a href="sandbox.php?game=EXEEEEEEE">_</a></div>
-    <div class="square"><a href="sandbox.php?game=EEEEXEEEE">_</a></div>
-    <div class="square"><a href="sandbox.php?game=EEEEEEEXE">_</a></div>
+    <div class="square"><?php gameboard(1,X);?>1</div>
+    <div class="square"><?php gameboard(4,X);?>4</div>
+    <div class="square"><?php gameboard(7,X);?>7</div>
   </div>
   <div class="column">
-    <div class="square"><a href="sandbox.php?game=EEXEEEEEE">_</a></div>
-    <div class="square"><a href="sandbox.php?game=EEEEEXEEE">_</a></div>
-    <div class="square"><a href="sandbox.php?game=EEEEEEEEX">_</a></div>
+    <div class="square"><?php gameboard(2,X);?>2</div>
+    <div class="square"><?php gameboard(5,X);?>5</div>
+    <div class="square"><?php gameboard(8,X);?>8</div>
   </div>
 </div>
   
