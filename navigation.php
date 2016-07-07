@@ -26,7 +26,7 @@
 		<h4>Projects</h4>
 			<ul>
 				<li><a href="RPS/index.php">Rock, Paper, Scissors</a></li>
-				<li><a href="TTT/index.php">TIC TAC TOE</a></li>
+				<li><a href="TTT/ttt.php">TIC TAC TOE</a></li>
 			</ul>
 	
 	<a href="index.php?theme=alternate"><img src="egg.png" style="width: 70px; height: 70px" alt="Switch Colors Scheme"></a>
