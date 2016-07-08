@@ -16,6 +16,18 @@ $draws=drawtally($winner, $draws);
 
 ?>
 
+<?php 
+if($winner !=="none"){
+
+$store = "gamehistory.txt";
+$file_connection=fopen($store, 'a') or die("Error opening file!");
+
+fwrite($file_connection, "\n");
+fwrite($file_connection, $board);
+fclose($file_connection);
+}
+?>
+
 
 
 

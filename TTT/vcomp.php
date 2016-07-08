@@ -1,13 +1,13 @@
 <?php
 session_start();
-
-$_SESSION['xwin']=0;
-$_SESSION['owin']=0;
-$_SESSION['draws']=0;
-
 ?>
 
-<?php include("tttfunctions.php"); ?>
+<?php include("vcompfunctions.php"); ?>
+
+
+
+
+
 
 <?php 
 $board = $_GET["board"];
@@ -17,14 +17,25 @@ $winner = winner($board, $eCount);
 $playAgain = playAgain($winner);
 
 $xwins=$_SESSION['xwin'];
-$xwins=xtally($winner, $xwins);
-$owins=$_SESSION['owin'];;
-$owins=otally($winner, $owins);
+
+$owins=$_SESSION['owin'];
+
 $draws=$_SESSION['draws'];
-$draws=drawtally($winner, $draws);
+
 
 ?>
 
+<?php 
+if($winner !=="none"){
+
+$store = "history.txt";
+$file_connection=fopen($store, 'a') or die("Error opening file!");
+
+fwrite($file_connection, "\n");
+fwrite($file_connection, $board);
+fclose($file_connection);
+}
+?>
 
 
 
