@@ -35,13 +35,15 @@ fclose($file_connection);
 <html>
 <head>
   <title>TIC TAC TOE</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="layoutstyle.css">
 </head>
 <body>
 
-<h1> <?php echo $turn; ?>'s Turn </h1>
+
 
 <div class="top">
+  <div class="top__arrow"><---</div>
+  <div class="top__menu">MENU</div>
 </div>
 <div class="container">
   <div class="column">
@@ -61,18 +63,20 @@ fclose($file_connection);
   </div>
 </div>
 <div class="bottom">
+  <div class="score">
+    <div class="score__player">Player 1</div>
+    <div class="score__numeral">0</div>
+  </div>
+  <div class="score">
+    <div class="score__player">Player 2</div>
+    <div class="score__numeral">0</div>
+  </div>
+  <div class="score">
+    <div class="score__player">Draw</div>
+    <div class="score__numeral">0</div>
+  </div>
 </div>
 
-<h1> The Winner is <?php echo $winner; ?> </h1>
-<a href="ttt.php?board=EEEEEEEEE"><h1> <?php echo $playAgain; ?> </h1></a>
-
-<div>    
-<h1>X Tally: <?php echo $xwins; ?></h1>
-
-<h1>O Tally: <?php echo $owins; ?></h1>
-
-<h1>Draw Tally: <?php echo $draws; ?></h1>
-</div>
 
 </body>
 </html>
