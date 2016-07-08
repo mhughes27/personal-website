@@ -19,7 +19,7 @@ function gameboard($board, $position, $turn){
   }
   elseif ($board[$position]=="E"){
     $board[$position]=$turn;
-    echo "<a href=ttt.php?board=" . $board . ">#</a>";
+    echo "<a href=ttt.php?board=" . $board . ">_</a>";
   }
 }
 ?>
@@ -52,3 +52,13 @@ function winner($board){
   }
 }
 ?>
+
+<?php
+function playAgain($winner){
+if ($winner == "X"||$winner == "O") {
+  return "PLAY AGAIN";
+}
+}
+?>
+
+

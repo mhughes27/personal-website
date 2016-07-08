@@ -5,6 +5,7 @@ $board = $_GET["board"];
 $eCount=substr_count($board,"E"); 
 $turn= whosTurn($eCount); 
 $winner = winner($board);
+$playAgain = playAgain($winner);
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +15,8 @@ $winner = winner($board);
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<h1> <?php echo $turn; ?>'s Turn </h1>
 
 <div class="container">
   <div class="column">
@@ -33,8 +36,8 @@ $winner = winner($board);
   </div>
 </div>
 
-<h1> <?php echo $winner; ?> </h1>
-<h1> <?php echo $turn; ?> </h1>
+<h1> The Winner is <?php echo $winner; ?> </h1>
+<a href="ttt.php?board=EEEEEEEEE"><h1> <?php echo $playAgain; ?> </h1></a>
     
 </body>
 </html>
