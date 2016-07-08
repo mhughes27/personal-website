@@ -58,3 +58,7 @@ function whosTurn($eCount){
 			$winner = "O"; return "O Wins";
 		}
 ?>
+<?php 
+	if($ecount ==0){
+		$winner = D
+	}

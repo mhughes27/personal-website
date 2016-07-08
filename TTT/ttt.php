@@ -4,9 +4,20 @@
 $board = $_GET["board"];
 $eCount=substr_count($board,"E"); 
 $turn= whosTurn($eCount); 
-$winner = winner($board);
+$winner = winner($board, $eCount);
 $playAgain = playAgain($winner);
+
+$xwins=0;
+$xwins=xtally($winner, $xwins);
+$owins=0;
+$owins=otally($winner, $owins);
+$draws=0;
+$draws=drawtally($winner, $draws);
+
 ?>
+
+
+
 
 <!DOCTYPE html>
 <html>
@@ -38,6 +49,14 @@ $playAgain = playAgain($winner);
 
 <h1> The Winner is <?php echo $winner; ?> </h1>
 <a href="ttt.php?board=EEEEEEEEE"><h1> <?php echo $playAgain; ?> </h1></a>
-    
+
+<div>    
+<h1>X Tally: <?php echo $xwins; ?></h1>
+
+<h1>O Tally: <?php echo $owins; ?></h1>
+
+<h1>Draw Tally: <?php echo $draws; ?></h1>
+</div>
+
 </body>
 </html>
