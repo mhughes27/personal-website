@@ -1,15 +1,10 @@
 <?php include("tttfunctions.php"); ?>
 
 <?php 
-
-$turn= whosTurn($eCount); 
-$winner="none"; 
-
 $board = $_GET["board"];
 $eCount=substr_count($board,"E"); 
-
-
-
+$turn= whosTurn($eCount); 
+$winner = winner($board);
 ?>
 
 <!DOCTYPE html>
@@ -38,6 +33,8 @@ $eCount=substr_count($board,"E");
   </div>
 </div>
 
+<h1> <?php echo $winner; ?> </h1>
+<h1> <?php echo $turn; ?> </h1>
     
 </body>
 </html>
