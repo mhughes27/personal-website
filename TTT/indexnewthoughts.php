@@ -1,4 +1,4 @@
-<?php include("tttfunctions.php"); ?>
+<?php include("newthoughts.php"); ?>
 
 <?php 
 
@@ -15,8 +15,8 @@ $eCount=substr_count($board,"E");
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TIC TAC TOE</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
