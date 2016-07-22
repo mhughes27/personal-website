@@ -1,10 +1,10 @@
 
 
 <nav>
-<div id="navigation">
+<div class="navigation">
 	
 		<h4>Pages</h4>
-			<ul>
+			<ul class="unList navLinks">
 				<li<?php if ($thisPage=="home") echo "id=\"currentpage\""; ?>> <a href="index.php">Home</a></li>
 				
 				<li<?php if ($thisPage=="goals") echo "id=\"currentpage\""; ?>> <a href="Personal Goals.php">Goals</a></li>
@@ -14,7 +14,7 @@
 			</ul>
 
 		<h4>Articles</h4>
-			<ul>
+			<ul class="unList navLinks">
 				<li<?php if ($thisPage=="ai") echo "id=\"currentpage\""; ?>> <a href="AI article.php">The Future of Artificial Intelligence</a></li>
 				<li<?php if ($thisPage=="theweb") echo "id=\"currentpage\""; ?>> <a href="The Web.php">The Web</a></li>
 				<li<?php if ($thisPage=="paths") echo "id=\"currentpage\""; ?>> <a href="paths.php">Calling Paths</a></li>
@@ -24,7 +24,7 @@
 
 			</ul>
 		<h4>Projects</h4>
-			<ul>
+			<ul class="unList">
 				<li><a href="RPS/index.php">Rock, Paper, Scissors</a></li>
 				<li><a href="TTT/ttt.php?board=EEEEEEEEE">TIC TAC TOE</a></li>
 			</ul>

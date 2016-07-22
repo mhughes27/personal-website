@@ -5,7 +5,7 @@
 			<h1>My Bucket List</h1>
 
 			<h3>Places</h3>
-			<ul>
+			<ul class="bucketList">
 				<li>Cooperstown, NY</li>
 				<li>Hawaii</li>
 				<strike>Ireland</strike>
@@ -15,7 +15,7 @@
 			</ul>
 
 			<h3>Events</h3>
-			<ul>
+			<ul class="bucketList">
 				<li>Wimbledon</li>
 				<li>Indinapolis 500</li>
 				<strike>Ketucky Derby</strike>
@@ -25,7 +25,7 @@
 			</ul>
 
 			<h3>Goals</h3>
-			<ul>
+			<ul class="bucketList">
 				<li>Appear on Jeopardy</li>
 				<li>Die a Happy Man</li>
 			</ul>
