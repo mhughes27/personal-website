@@ -21,7 +21,7 @@
 				<li<?php if ($thisPage=="htmlparts") echo "id=\"currentpage\""; ?>> <a href="htmlParts.php">Parts of an HTML Document</a></li>
 				<li<?php if ($thisPage=="tttprocess") echo "id=\"currentpage\""; ?>> <a href="TTTprocess.php">Designing TIC TAC TOE</a></li>
 				<li<?php if ($thisPage=="dictionary") echo "id=\"currentpage\""; ?>> <a href="dictionary.php">Personal Dictionary</a></li>
-
+				<li<?php if ($thisPage=="coding") echo "id=\"currentpage\""; ?>> <a href="coding.php">The Joys of Coding</a></li>
 			</ul>
 		<h4>Projects</h4>
 			<ul class="unList">
